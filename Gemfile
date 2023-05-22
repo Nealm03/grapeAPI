@@ -1,13 +1,13 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.0.3.5'
+gem 'rails', '6.1.7.3'
 
 gem 'grape'
 gem 'mongoid'
-gem 'bson_ext'
+gem 'bson_ext', '>= 1.12.0'
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0.8'
+gem 'sass-rails', '~> 6.0.0'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -25,7 +25,7 @@ gem 'jquery-rails', '>= 4.0.1'
 gem 'turbolinks', '>= 2.2.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 1.2'
+gem 'jbuilder', '~> 1.5', '>= 1.5.3'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
